@@ -1,0 +1,102 @@
+<mjml>
+    <mj-head>
+        <mj-breakpoint width="600px" />
+        <mj-style>
+            *{
+                box-sizing:border-box;
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image width="200px" align="center" src="http://127.0.0.1:5501/assets/vanserlogo.avif"/>
+            <mj-divider border-width="2px" border-style="solid" border-color="#000" padding-top="30px"/>
+        </mj-column>
+    </mj-section>
+
+    <mj-body>
+        <mj-raw>
+        <!-- Header -->
+        </mj-raw>
+
+    <mj-section background-color="#6e4e37">
+        <mj-column>
+            
+        </mj-column>
+    </mj-section>    
+
+    <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image width="200px" align="center" src="http://127.0.0.1:5501/assets/vanserlogo.avif"/>
+            <mj-text align="center">
+                <h1 style="font-weight:900;font-size:2rem;color:#6e4e37;">WELCOME!</h1>
+                <h1 style="font-weight:500;color:#6e4e37;">THANKS FOR JOINING US </h1>
+            </mj-text>
+            <mj-image width="550px" align="center" padding-bottom="0px" src="http://127.0.0.1:5501/assets/aboutusbanner.png"/>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" padding-top="0px">
+        <mj-column > 
+            <mj-text align="center" >
+                <p style="font-size:.9rem;line-height:1.5;color:#6e4e37;">Vanser Toys LLC. is a Las Vegas based toy company. We're on a mission to spread creativity and positivity within the collector toy community while making designer figures in the process! Follow us on Instagram @vansertoys for updates on Ramble and the journey of two toy makers selling toys to buy toys.</p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" padding-top="0px">
+       
+            <mj-column> 
+                <mj-image width="250px" src="http://127.0.0.1:5501/assets/ramble_VGK.png" alt="" />
+                <mj-text align="center">
+                    <h2 style="font-weight:900;color:#6e4e37;">Vynl Figures</h2>
+                    <p>Check out our collection of vynl figures</p>
+                </mj-text>
+                <mj-button background-color="#6e4e37">Shop Now</mj-button>
+            </mj-column>
+            <mj-column>
+                <mj-image  width="250px"  src="http://127.0.0.1:5501/assets/ramble_resin.png" alt="" />
+                <mj-text align="center">
+                    <h2 style="font-weight:900;color:#6e4e37;">Resin Figures</h2>
+                    <p>Check out our collection of vynl figures</p>
+                </mj-text>
+                <mj-button background-color="#6e4e37">Shop Now</mj-button>
+            </mj-column>
+        
+    </mj-section>
+    
+    <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image width="250px" src="http://127.0.0.1:5501/assets/ramble_shirt.png" alt="" />
+                <mj-text align="center">
+                    <h2 style="font-weight:900;color:#6e4e37;">Apparel</h2>
+                    <p>Check out our collection of vynl figures</p>
+                </mj-text>
+                <mj-button background-color="#6e4e37">Shop Now</mj-button>
+        </mj-column>
+        <mj-column>
+            <mj-image width="250px" src="http://127.0.0.1:5501/assets/ramble_sticker.png" alt="" />
+                <mj-text align="center">
+                    <h2 style="font-weight:900;color:#6e4e37;">Ramble Merch</h2>
+                    <p>Check out our collection of vynl figures</p>
+                </mj-text>
+                <mj-button background-color="#6e4e37">Shop Now</mj-button>
+        </mj-column>
+    </mj-section>
+
+     <mj-section background-color="#fff" padding-top="0px">
+        <mj-column > 
+            <mj-text align="center" >
+                <h2 style="font-size:2rem;line-height:1;color:#6e4e37;">We're Vanser Toys.</h2>
+                <h2 style="font-size:2rem;line-height:1;color:#6e4e37;">We make art toys.</h2>
+                <h2 style="font-size:2rem;line-height:1;color:#6e4e37;">We sell art toys.</h2>
+                <h2 style="font-size:2rem;line-height:1;color:#6e4e37;">We collect art toys.</h2>
+                <h2 style="font-size:2rem;line-height:1;color:#6e4e37;">We learn.</h2>
+                <h2 style="font-size:2rem;line-height:1;color:#6e4e37;">We share.</h2>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    </mj-body>
+</mjml>
