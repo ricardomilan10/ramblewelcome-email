@@ -5,37 +5,43 @@
             *{
                 box-sizing:border-box;
             }
+            .center-btn{
+                display:inline-block;
+                text-align:center;
+                border: 1px solid #6e4e37;
+                background-color:#6e4e37;
+                border-radius: 3px;
+                color: #ffffff!important;
+                text-decoration: none;
+                text-decoration-color:white!important;
+                padding: 14px 40px;
+                cursor:pointer;
+            }
         </mj-style>
-    </mj-head>
-
-
+     </mj-head>
+    
     <mj-body background-color="#e4e5ea">
         
-        <mj-raw>
-        <!-- Header -->
-        </mj-raw>
+    <mj-raw>
+    <!-- HEADER -->
+    </mj-raw>
 
-    <mj-section background-color="#6e4e37">
-       
-    </mj-section>
-
-    <mj-hero mode="fixed-height" height="470px"background-width="600px"  background-height="469px" background-url="http://127.0.0.1:5501/assets/bannervanserlogo.png" background-color="#2a3448" padding="100px 0px">
-        
-    </mj-hero>
-
-
+    <mj-section background-color="#6e4e37"></mj-section>
+    <mj-hero mode="fixed-height" height="470px"background-width="600px"  background-height="469px" background-url="https://i.imgur.com/SRRZXI8.png" background-color="#2a3448" padding="100px 0px"></mj-hero>
     <mj-section background-color="#fff" padding="0px">
         <mj-column padding="0px">
             <mj-text align="center" padding="0px">
                 <h1 style="font-weight:900;font-size:2rem;color:#6e4e37;" >WELCOME!</h1>
                 <h1 style="font-weight:500;color:#6e4e37;">THANKS FOR JOINING US </h1>
             </mj-text>
-            <mj-image width="600px"  align="center" padding="0px" src="http://127.0.0.1:5501/assets/figures.jpg"/>
+            <mj-image width="600px"  align="center" padding="0px" src="https://i.imgur.com/S8zSMA5.png"/>
         </mj-column>
     </mj-section>
 
+    <mj-raw>
+    <!-- TOP ABOUT SECTION -->
+    </mj-raw>
      
-
     <mj-section background-color="#fff" padding="0px">
         <mj-column > 
             <mj-text align="center" padding="0px 15px 15px 15px ">
@@ -44,45 +50,53 @@
         </mj-column>
     </mj-section>
 
+    <mj-raw>
+    <!-- CENTER SECTION -->
+    </mj-raw>
+
     <mj-section background-color="#f2f2f2" padding="20px 0px 0px 0px">
             <mj-column> 
-                <mj-image width="250px" src="http://127.0.0.1:5501/assets/ramblevgk.png" alt="" />
+                <mj-image width="250px" src="https://i.imgur.com/D4lAaT6.png" alt="" />
                 <mj-text align="center">
                     <h2 style="font-weight:900;color:#6e4e37;">Vynl Figures</h2>
                     <p style="line-height:15px;">Featuring: Power Play, Silver State, and Gold Digger Ramble</p>
                 </mj-text>
-                <mj-button background-color="#6e4e37">Shop Now</mj-button>
+                <mj-button background-color="#6e4e37" href="#">Shop Now</mj-button>
             </mj-column>
             <mj-column>
-                <mj-image  width="250px"  src="http://127.0.0.1:5501/assets/rambleresin.png" alt="" />
+                <mj-image  width="250px"  src="https://i.imgur.com/7yqEtwi.png" alt="" />
                 <mj-text align="center">
                     <h2 style="font-weight:900;color:#6e4e37;">Resin Figures</h2>
                     <p style="line-height:15px">Featuring: Fear One, Black Cherry, and Quick Silver LLF Exclusive Ramble </p>
                 </mj-text>
-                <mj-button background-color="#6e4e37">Shop Now</mj-button>
+                <mj-button background-color="#6e4e37" href="#">Shop Now</mj-button>
             </mj-column> 
     </mj-section>
     
     <mj-section background-color="#f2f2f2" padding="20px 0px 20px 0px">
         <mj-column>
-            <mj-image width="250px" src="http://127.0.0.1:5501/assets/ramble_shirt.png" alt="" />
+            <mj-image width="250px" src="https://i.imgur.com/PyNlj2U.png" alt="" />
                 <mj-text align="center">
                     <h2 style="font-weight:900;color:#6e4e37;">Apparel</h2>
                     <p style="line-height:15px">Check out our variety of Ramble T-shirts</p>
                 </mj-text>
-                <mj-button background-color="#6e4e37">Shop Now</mj-button>
+                <mj-button background-color="#6e4e37" href="#">Shop Now</mj-button>
         </mj-column>
         <mj-column>
-            <mj-image width="250px" src="http://127.0.0.1:5501/assets/ramble_pin.webp" alt="" />
+            <mj-image width="250px" src="https://i.imgur.com/awrx6iq.png" alt="" />
                 <mj-text align="center">
                     <h2 style="font-weight:900;color:#6e4e37;">Ramble Merch</h2>
                     <p style="line-height:15px">Check out our Ramble pins and stickers</p>
                 </mj-text>
-                <mj-button background-color="#6e4e37">Shop Now</mj-button>
+                <mj-button background-color="#6e4e37" href="#">Shop Now</mj-button>
         </mj-column>
     </mj-section>
 
-     <mj-section background-color="#6e4e37" padding="0px">
+    <mj-raw>
+    <!-- BOTTOM BROWN SECTION -->
+    </mj-raw>
+
+    <mj-section background-color="#6e4e37" padding="0px">
         <mj-column > 
             <mj-text align="center" >
                 <h2 style="font-size:2rem;line-height:1;color:#fff;">We're Vanser Toys.</h2>
@@ -95,6 +109,10 @@
         </mj-column>
     </mj-section>
 
+    <mj-raw>
+    <!-- COUPON SECTION -->
+    </mj-raw>
+
     <mj-section background-color="#f2f2f2" padding="10px 0px 25px 0px">
         <mj-column >
             <mj-text align="center" >
@@ -106,9 +124,13 @@
         </mj-column>
     </mj-section>
 
+     <mj-raw>
+    <!-- FOOTER -->
+    </mj-raw>
+
     <mj-section background-color="#fff" padding="25px 0px 20px 0px">
         <mj-column >
-            <mj-image src="https://i.imgur.com/58WivT8.png" alt="" width="100px"  />
+            <mj-image src="https://i.imgur.com/Gfxbgv2.png" alt="" width="100px"  />
         </mj-column>
         <mj-group>      
             <mj-column >
@@ -127,7 +149,7 @@
     <mj-section background-color="white" padding="25px 0px 25px 0px" >
         <mj-column padding="0px">
             <mj-text color="rgb(117, 117, 117)" font-size="10px" > <a href="#" style="text-decoration:underline;color:#757575;" >Views this email online</a></mj-text>
-            <mj-text color="rgb(117, 117, 117)" font-size="10px"> You are receiving this message based on your Nike account settings. <a href="#" style="text-decoration:underline;color:#757575;">Unsubscribe</a> or adjust your  <a href="#" style="text-decoration:underline;color:#757575;">email preferences.</a></mj-text>
+            <mj-text color="rgb(117, 117, 117)" font-size="10px"> <a href="#" style="text-decoration:underline;color:#757575;">Unsubscribe</a> or adjust your  <a href="#" style="text-decoration:underline;color:#757575;">email preferences.</a></mj-text>
             <mj-text color="rgb(117, 117, 117)" font-size="10px">Copyright © 2023 Vanser Toys LLC All rights reserved. Las Vegas, Nevada. </mj-text>
         </mj-column>
     </mj-section>
